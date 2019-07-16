@@ -28,7 +28,8 @@
     "class-validator": "^0.9.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.2",
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.3.3",
+    "xmldoc": "^1.1.2"
   },
   "devDependencies": {
     "@nestjs/testing": "^6.0.0",

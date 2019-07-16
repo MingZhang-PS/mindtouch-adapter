@@ -1,8 +1,8 @@
 import { ApiModelProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
 export class ConnectionDataDTO {
-    siteURL: string;
-    user: string;
-    key: string;
-    secret: string;
+    readonly siteURL: string;
+    readonly username: string;
+    readonly password: string;
+    // secret: string;
 }
