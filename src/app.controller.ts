@@ -1,10 +1,9 @@
-import { ConnectionDTO } from './dto/connection.dto';
-
 import { Controller, Get, Query, Param, Post, Body } from '@nestjs/common';
 import { XmlDocument } from 'xmldoc';
 import { AppService } from './app.service';
 import { SearchPayloadDTO } from './dto/searchPayload.dto';
-import { IConnectionCredential } from './dto/interface/connectionCredetial.interface';
+import { ConnectionDTO } from './dto/connection.dto';
+import { IConnectionCredential } from './dto/interface/connectionCredential.interface';
 
 @Controller('portal/mindtouch')
 export class AppController {
