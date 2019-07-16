@@ -21,11 +21,12 @@ export class AppController {
     return null;
   }
 
-  @Get(':id')
-  async getById(@Param('id') id, @Query() connectionData: ConnectionDataDTO) {
-    // return this.appService.getHello();
+  @Post('view/:id')
+  async getById(@Param('id') id, @Body() connectionData: ConnectionDataDTO) {
     console.log(id)
     console.log(connectionData)
+    const pageDetailXML: XmlDocument = await this.appService.getArticle(id, connectionData);
+    console.log(pageDetailXML);
     return null;
   }
 }
