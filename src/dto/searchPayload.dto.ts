@@ -5,7 +5,7 @@ import { ConnectionDataDTO } from './connectionData.dto';
 export class SearchPayloadDTO {
 
     search: string;
-
+@Type(() => ConnectionDataDTO)
     connectionData: ConnectionDataDTO;
 
     page?: number;

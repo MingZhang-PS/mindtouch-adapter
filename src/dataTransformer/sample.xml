@@ -1,0 +1,1673 @@
+<search count="10" querycount="55" ranking="adaptive">
+    <parsedQuery>+(content:(How to turn up your phone) title:(How to turn up your phone)^10 path.title:(How to turn up your phone)^4 description:(How to turn up your phone)^3 tag:(How to turn up your phone)^2 filename:(How to turn up your phone)^1 filetitle:(How to turn up your phone) keywords:(How to turn up your phone)^10 ) +type:(wiki OR document OR image OR binary) +(type:wiki AND 
+ +(+namespace:main)) -namespace:"user" -namespace:"template_talk" -namespace:"help" -namespace:"help_talk"</parsedQuery>
+    <page id="316" guid="dc2ea4d981c241e58b3089891b7cd7e0" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316?redirects=0" deleted="false" unpublish="false" revision="2" score="1">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide/01_Turning_On_Your_Phone</uri.ui>
+        <title>Turning On Your Phone</title>
+        <path seo="true" type="custom">Smart_Phones/Mere_Phones/User_Guide/01_Turning_On_Your_Phone</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:43Z</date.created>
+        <language>en-US</language>
+        <article>topic</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>152</metric.views>
+            <metric.charcount>1054</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:45Z</date.edited>
+        <date.modified>2017-09-07T23:20:45Z</date.modified>
+        <timeuuid>2c888480-9423-11e7-80c4-2a1a9dcde600</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>Page title changed to 'Turning On Your Phone'; 109 words added, 3 words removed</description>
+        <page.parent id="314" guid="bbacbc8621474363b6795fef78a85906" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/314?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide</uri.ui>
+            <title>User Guide</title>
+            <path seo="true">Smart_Phones/Mere_Phones/User_Guide</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:42Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="313" guid="1b3a3addb3cf4a14b11f0223a6f7f206" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones</uri.ui>
+                <title>Mere Phones</title>
+                <path seo="true">Smart_Phones/Mere_Phones</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:41Z</date.created>
+                <language>en-US</language>
+                <article>topic-guide</article>
+                <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                    <title>Smart Phones</title>
+                    <path seo="true">Smart_Phones</path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:20:39Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-category</article>
+                    <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                        <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                        <title>Home</title>
+                        <path seo="true" type="fixed"></path>
+                        <namespace>main</namespace>
+                        <date.created>2017-09-07T23:18:34Z</date.created>
+                        <language>en-US</language>
+                        <article>topic-portfolio</article>
+                    </page.parent>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="0.666667" count="3" date="2019-04-10T07:57:07Z" seated.score="1" seated.count="2" unseated.score="0" unseated.count="0" anonymous.score="0" anonymous.count="1">
+            <user.ratedby id="1" score="1" date="2019-03-18T07:13:49Z" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1" seated="true" />
+        </rating>
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FMere_Phones%252FUser_Guide%252F01_Turning_On_Your_Phone/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/comments" />
+        <properties count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/properties">
+            <property revision="2" resid="92" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/properties/mindtouch.page%2523overview/info" etag="92.r2_ts2017-09-07T23:20:45Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="48" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/properties/mindtouch.page%2523overview">This article outlines how to turn on your phone.</contents>
+                <date.modified>2017-09-07T23:20:45Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="91" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/properties/mindtouch.import%2523info/info" etag="91.r1_ts2017-09-07T23:20:45Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>13793a0d8f4d106de4870e91d7fe6acb</etag>
+                        <date.modified>2017-04-22T00:50:26Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:45Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 2</change-description>
+            </property>
+        </properties>
+        <tags count="7" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/tags">
+            <tag value="article:topic" id="5" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/5">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic</uri>
+                <type>text</type>
+                <title>article:topic</title>
+            </tag>
+            <tag value="master" id="25" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/25">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=master</uri>
+                <type>text</type>
+                <title>master</title>
+            </tag>
+            <tag value="on/off" id="26" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/26">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=on/off</uri>
+                <type>text</type>
+                <title>on/off</title>
+            </tag>
+            <tag value="power" id="23" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/23">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=power</uri>
+                <type>text</type>
+                <title>power</title>
+            </tag>
+            <tag value="stage:final" id="15" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/15">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=stage:final</uri>
+                <type>text</type>
+                <title>stage:final</title>
+            </tag>
+            <tag value="turn on" id="24" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/24">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=turn+on</uri>
+                <type>text</type>
+                <title>turn on</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/contents" etag="13793a0d8f4d106de4870e91d7fe6acb" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/316/pdf/Turning%2bOn%2bYour%2bPhone.pdf" />
+    </page>
+    <page id="458" guid="5a7ae1bd64e1448985af4e5d6b59b948" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458?redirects=0" deleted="false" unpublish="true" revision="2" score="0.9469323">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/How_to_turn_up_your_phone</uri.ui>
+        <title>How to turn up your phone</title>
+        <path seo="true">Smart_Phones/Mere_Phones/How_to_turn_up_your_phone</path>
+        <namespace>main</namespace>
+        <date.created>2019-04-18T03:34:08Z</date.created>
+        <language>en-US</language>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>23</metric.views>
+            <metric.charcount>65</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="5" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/5">
+            <nick>Ivy</nick>
+            <username>Ivy</username>
+            <fullname>Ivy Gou</fullname>
+            <email>ivy.gou@sap.com</email>
+            <password exists="true" />
+            <license.seat>true</license.seat>
+            <date.created>2019-04-10T06:51:06Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-08T07:53:55Z</date.lastlogin>
+            <hash.email>3f7d346fb46333c5fd34776a00a81eec</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2019-04-18T03:36:23Z</date.edited>
+        <date.modified>2019-04-18T03:36:23Z</date.modified>
+        <timeuuid>232cd580-618b-11e9-8015-ed0ba7c213a8</timeuuid>
+        <user.author anonymous="false" virtual="false" id="5" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/5">
+            <nick>Ivy</nick>
+            <username>Ivy</username>
+            <fullname>Ivy Gou</fullname>
+            <email>ivy.gou@sap.com</email>
+            <password exists="true" />
+            <license.seat>true</license.seat>
+            <date.created>2019-04-10T06:51:06Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-08T07:53:55Z</date.lastlogin>
+            <hash.email>3f7d346fb46333c5fd34776a00a81eec</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.avatar>
+        </user.author>
+        <description>10 words added</description>
+        <page.parent id="313" guid="1b3a3addb3cf4a14b11f0223a6f7f206" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones</uri.ui>
+            <title>Mere Phones</title>
+            <path seo="true">Smart_Phones/Mere_Phones</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:41Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                <title>Smart Phones</title>
+                <path seo="true">Smart_Phones</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:39Z</date.created>
+                <language>en-US</language>
+                <article>topic-category</article>
+                <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                    <title>Home</title>
+                    <path seo="true" type="fixed"></path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-portfolio</article>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FMere_Phones%252FHow_to_turn_up_your_phone/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/comments" />
+        <properties count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/properties">
+            <property revision="1" resid="327" name="urn:custom.mindtouch.com#_editedby" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/properties/urn%253Acustom.mindtouch.com%2523_editedby/info" etag="327.r1_ts2019-04-18T03:36:23Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/properties/urn%253Acustom.mindtouch.com%2523_editedby">[]</contents>
+                <date.modified>2019-04-18T03:36:23Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="5" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/5">
+                    <nick>Ivy</nick>
+                    <username>Ivy</username>
+                    <fullname>Ivy Gou</fullname>
+                    <email>ivy.gou@sap.com</email>
+                    <password exists="true" />
+                    <license.seat>true</license.seat>
+                    <date.created>2019-04-10T06:51:06Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-08T07:53:55Z</date.lastlogin>
+                    <hash.email>3f7d346fb46333c5fd34776a00a81eec</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/3f7d346fb46333c5fd34776a00a81eec.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>draft publish</change-description>
+            </property>
+        </properties>
+        <tags count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/tags" />
+        <files count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/contents" etag="84df33df0f19ad42df58149ef82b4099" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/458/pdf/How%2bto%2bturn%2bup%2byour%2bphone.pdf" />
+    </page>
+    <page id="325" guid="d08e0cbe495a490b82c0440f5cdf7106" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325?redirects=0" deleted="false" unpublish="true" revision="1" score="0.894325">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones/User_Guide/Turning_On_Your_Phone</uri.ui>
+        <title>Turning On Your Phone</title>
+        <path seo="true">Smart_Phones/Clix_Phones/User_Guide/Turning_On_Your_Phone</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:46Z</date.created>
+        <language>en-US</language>
+        <article>howto</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>30</metric.views>
+            <metric.charcount>128</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:46Z</date.edited>
+        <date.modified>2017-09-07T23:20:48Z</date.modified>
+        <timeuuid>2e524800-9423-11e7-8088-35876f0f5cf7</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>Page created, 6 words added</description>
+        <page.parent id="319" guid="0eee2d5c28fd430fb03e2c4a8334517b" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/319?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones/User_Guide</uri.ui>
+            <title>User Guide</title>
+            <path seo="true">Smart_Phones/Clix_Phones/User_Guide</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:44Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="315" guid="131f31dcaac7404a8f48d221204e106e" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones</uri.ui>
+                <title>Clix Phones</title>
+                <path seo="true">Smart_Phones/Clix_Phones</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:42Z</date.created>
+                <language>en-US</language>
+                <article>topic-category</article>
+                <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                    <title>Smart Phones</title>
+                    <path seo="true">Smart_Phones</path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:20:39Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-category</article>
+                    <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                        <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                        <title>Home</title>
+                        <path seo="true" type="fixed"></path>
+                        <namespace>main</namespace>
+                        <date.created>2017-09-07T23:18:34Z</date.created>
+                        <language>en-US</language>
+                        <article>topic-portfolio</article>
+                    </page.parent>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/aliases" />
+        <revisions count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FClix_Phones%252FUser_Guide%252FTurning_On_Your_Phone/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/comments" />
+        <properties count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/properties">
+            <property revision="1" resid="105" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/properties/mindtouch.import%2523info/info" etag="105.r1_ts2017-09-07T23:20:46Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>4b9ed772c0e827f275009cfed9be4fc2</etag>
+                        <date.modified>2016-06-24T15:51:35Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:46Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 1</change-description>
+            </property>
+        </properties>
+        <tags count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/tags">
+            <tag value="article:howto" id="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/3">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:howto</uri>
+                <type>text</type>
+                <title>article:howto</title>
+            </tag>
+            <tag value="reuse" id="41" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/41">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=reuse</uri>
+                <type>text</type>
+                <title>reuse</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/contents" etag="4b9ed772c0e827f275009cfed9be4fc2" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/325/pdf/Turning%2bOn%2bYour%2bPhone.pdf" />
+    </page>
+    <page id="460" guid="ec707828163b40168e78dd8120b47dc3" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460?redirects=0" deleted="false" unpublish="true" revision="2" score="0.8422437">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide/Page_Title</uri.ui>
+        <title>How to restart phone</title>
+        <path seo="true" type="custom">Smart_Phones/Mere_Phones/User_Guide/Page_Title</path>
+        <namespace>main</namespace>
+        <date.created>2019-06-25T02:48:27Z</date.created>
+        <language>en-US</language>
+        <article>howto</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>103</metric.views>
+            <metric.charcount>1072</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2019-06-25T02:49:58Z</date.edited>
+        <date.modified>2019-06-25T02:50:18Z</date.modified>
+        <timeuuid>f7325100-96f3-11e9-8091-249f79f76457</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>Page title changed to 'How to restart phone'; 143 words added</description>
+        <page.parent id="314" guid="bbacbc8621474363b6795fef78a85906" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/314?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide</uri.ui>
+            <title>User Guide</title>
+            <path seo="true">Smart_Phones/Mere_Phones/User_Guide</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:42Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="313" guid="1b3a3addb3cf4a14b11f0223a6f7f206" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones</uri.ui>
+                <title>Mere Phones</title>
+                <path seo="true">Smart_Phones/Mere_Phones</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:41Z</date.created>
+                <language>en-US</language>
+                <article>topic-guide</article>
+                <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                    <title>Smart Phones</title>
+                    <path seo="true">Smart_Phones</path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:20:39Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-category</article>
+                    <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                        <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                        <title>Home</title>
+                        <path seo="true" type="fixed"></path>
+                        <namespace>main</namespace>
+                        <date.created>2017-09-07T23:18:34Z</date.created>
+                        <language>en-US</language>
+                        <article>topic-portfolio</article>
+                    </page.parent>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="1" count="2" date="2019-07-16T02:41:35Z" seated.score="1" seated.count="2" unseated.score="0" unseated.count="0" anonymous.score="0" anonymous.count="0">
+            <user.ratedby id="1" score="1" date="2019-06-25T02:54:20Z" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1" seated="true" />
+        </rating>
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FMere_Phones%252FUser_Guide%252FPage_Title/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/comments" />
+        <properties count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/properties">
+            <property revision="1" resid="329" name="urn:custom.mindtouch.com#_editedby" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/properties/urn%253Acustom.mindtouch.com%2523_editedby/info" etag="329.r1_ts2019-06-25T02:49:58Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/properties/urn%253Acustom.mindtouch.com%2523_editedby">[]</contents>
+                <date.modified>2019-06-25T02:49:58Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>draft publish</change-description>
+            </property>
+        </properties>
+        <tags count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/tags">
+            <tag value="article:howto" id="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/3">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:howto</uri>
+                <type>text</type>
+                <title>article:howto</title>
+            </tag>
+            <tag value="phone" id="280" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/280">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=phone</uri>
+                <type>text</type>
+                <title>phone</title>
+            </tag>
+        </tags>
+        <files count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/contents" etag="f3e5a83b79e39992f37b8f48a29c4d0b" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/460/pdf/How%2bto%2brestart%2bphone.pdf" />
+    </page>
+    <page id="354" guid="5349a777555c4493b1fd075bcf46eebc" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354?redirects=0" deleted="false" unpublish="true" revision="4" score="0.7893733">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Workstations/Getting_Started/01_Starting_Up_Your_Workstation</uri.ui>
+        <title>Starting Up Your Workstation</title>
+        <path seo="true" type="custom">Workstations/Getting_Started/01_Starting_Up_Your_Workstation</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:21:32Z</date.created>
+        <language>en-US</language>
+        <article>topic</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>103</metric.views>
+            <metric.charcount>772</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-11-27T07:20:23Z</date.edited>
+        <date.modified>2017-12-15T07:05:22Z</date.modified>
+        <timeuuid>5100a500-e166-11e7-80e5-9c8f9bdf225a</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>11 words removed</description>
+        <page.parent id="353" guid="8cc8c5e621b64d4e8d768a1d882d9296" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/353?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Workstations/Getting_Started</uri.ui>
+            <title>Getting Started</title>
+            <path seo="true">Workstations/Getting_Started</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:21:32Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="352" guid="bd72d47a78f54d5da11aff860a0b2a53" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/352?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Workstations</uri.ui>
+                <title>Workstations</title>
+                <path seo="true">Workstations</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:21:31Z</date.created>
+                <language>en-US</language>
+                <article>topic-category</article>
+                <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                    <title>Home</title>
+                    <path seo="true" type="fixed"></path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-portfolio</article>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="1" count="1" date="2017-09-19T08:23:20Z" seated.score="0" seated.count="0" unseated.score="0" unseated.count="0" anonymous.score="1" anonymous.count="1" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/aliases" />
+        <revisions count="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Workstations%252FGetting_Started%252F01_Starting_Up_Your_Workstation/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/comments" />
+        <properties count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties">
+            <property revision="5" resid="245" name="urn:custom.mindtouch.com#_editedby" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/urn%253Acustom.mindtouch.com%2523_editedby/info" etag="245.r5_ts2017-12-14T05:54:14Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="84" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/urn%253Acustom.mindtouch.com%2523_editedby">[{"name":"admin","token":"06d1f250-8853-ef44-a045-96408127b126","ts":1513230854106}]</contents>
+                <date.modified>2017-12-14T05:54:14Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="3" resid="191" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/mindtouch.page%2523overview/info" etag="191.r3_ts2017-11-27T07:18:02Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="37" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/mindtouch.page%2523overview">Power up your new Mavion Workstation!</contents>
+                <date.modified>2017-11-27T07:18:02Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>draft publish</change-description>
+            </property>
+            <property revision="2" resid="190" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/mindtouch.import%2523info/info" etag="190.r2_ts2017-11-27T07:18:02Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>97c631bc0c23c9916aef2d6951595a19</etag>
+                        <date.modified>2017-01-24T21:14:26Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-11-27T07:18:02Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>draft publish</change-description>
+            </property>
+        </properties>
+        <tags count="7" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/tags">
+            <tag value="article:topic" id="5" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/5">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic</uri>
+                <type>text</type>
+                <title>article:topic</title>
+            </tag>
+            <tag value="bestpractice:true" id="6" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/6">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=bestpractice:true</uri>
+                <type>text</type>
+                <title>bestpractice:true</title>
+            </tag>
+            <tag value="power up" id="224" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/224">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=power+up</uri>
+                <type>text</type>
+                <title>power up</title>
+            </tag>
+            <tag value="stage:final" id="15" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/15">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=stage:final</uri>
+                <type>text</type>
+                <title>stage:final</title>
+            </tag>
+            <tag value="starting" id="225" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/225">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=starting</uri>
+                <type>text</type>
+                <title>starting</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+            <tag value="wizard" id="226" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/226">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=wizard</uri>
+                <type>text</type>
+                <title>wizard</title>
+            </tag>
+        </tags>
+        <files count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/contents" etag="c6c9c835531b15c8c207aa0979e2254a" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/354/pdf/Starting%2bUp%2bYour%2bWorkstation.pdf" />
+    </page>
+    <page id="334" guid="09cf3f866c154d1482a2f8c39ee36767" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334?redirects=0" deleted="false" unpublish="true" revision="3" score="0.7365029">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones/User_Guide/Using_the_Keypad/How_to_reslove_the_software_issue_of_phone</uri.ui>
+        <title>How to reslove the software issue of phone</title>
+        <path seo="true">Smart_Phones/Clix_Phones/User_Guide/Using_the_Keypad/How_to_reslove_the_software_issue_of_phone</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:48Z</date.created>
+        <language>en-US</language>
+        <article>howto</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>159</metric.views>
+            <metric.charcount>1198</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2018-08-28T08:10:40Z</date.edited>
+        <date.modified>2018-08-28T08:10:40Z</date.modified>
+        <timeuuid>da100000-aa99-11e8-8040-f19f2f75415a</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>1 words added, 2 words removed</description>
+        <page.parent id="326" guid="12d538f337a64ee795928b6ce280dbda" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/326?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones/User_Guide/Using_the_Keypad</uri.ui>
+            <title>Using the Keypad</title>
+            <path seo="true">Smart_Phones/Clix_Phones/User_Guide/Using_the_Keypad</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:46Z</date.created>
+            <language>en-US</language>
+            <article>topic</article>
+            <page.parent id="319" guid="0eee2d5c28fd430fb03e2c4a8334517b" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/319?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones/User_Guide</uri.ui>
+                <title>User Guide</title>
+                <path seo="true">Smart_Phones/Clix_Phones/User_Guide</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:44Z</date.created>
+                <language>en-US</language>
+                <article>topic-guide</article>
+                <page.parent id="315" guid="131f31dcaac7404a8f48d221204e106e" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones</uri.ui>
+                    <title>Clix Phones</title>
+                    <path seo="true">Smart_Phones/Clix_Phones</path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:20:42Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-category</article>
+                    <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                        <title>Smart Phones</title>
+                        <path seo="true">Smart_Phones</path>
+                        <namespace>main</namespace>
+                        <date.created>2017-09-07T23:20:39Z</date.created>
+                        <language>en-US</language>
+                        <article>topic-category</article>
+                        <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                            <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                            <title>Home</title>
+                            <path seo="true" type="fixed"></path>
+                            <namespace>main</namespace>
+                            <date.created>2017-09-07T23:18:34Z</date.created>
+                            <language>en-US</language>
+                            <article>topic-portfolio</article>
+                        </page.parent>
+                    </page.parent>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/aliases" />
+        <revisions count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FClix_Phones%252FUser_Guide%252FUsing_the_Keypad%252FHow_to_reslove_the_software_issue_of_phone/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/comments" />
+        <properties count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties">
+            <property revision="5" resid="256" name="urn:custom.mindtouch.com#_editedby" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/urn%253Acustom.mindtouch.com%2523_editedby/info" etag="256.r5_ts2018-08-28T08:10:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/urn%253Acustom.mindtouch.com%2523_editedby">[]</contents>
+                <date.modified>2018-08-28T08:10:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="4" resid="125" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/mindtouch.page%2523overview/info" etag="125.r4_ts2017-12-18T02:43:50Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="61" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/mindtouch.page%2523overview">This article outlines how to resolve he issue of bike's brake</contents>
+                <date.modified>2017-12-18T02:43:50Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>page overview</change-description>
+            </property>
+            <property revision="1" resid="124" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/mindtouch.import%2523info/info" etag="124.r1_ts2017-09-07T23:20:48Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>ded0f29ef5362bb9c1dafe212e806f00</etag>
+                        <date.modified>2016-06-24T15:51:42Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:48Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 1</change-description>
+            </property>
+        </properties>
+        <tags count="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/tags">
+            <tag value="article:howto" id="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/3">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:howto</uri>
+                <type>text</type>
+                <title>article:howto</title>
+            </tag>
+            <tag value="Messaging" id="94" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/94">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=Messaging</uri>
+                <type>text</type>
+                <title>Messaging</title>
+            </tag>
+            <tag value="stage:draft" id="18" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/18">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=stage:draft</uri>
+                <type>text</type>
+                <title>stage:draft</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/contents" etag="5a815c12e09a435570120f0f0ea18dda" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/334/pdf/How%2bto%2breslove%2bthe%2bsoftware%2bissue%2bof%2bphone.pdf" />
+    </page>
+    <page id="317" guid="8b3a733c5a5c4cd285bc421cdc3b768d" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317?redirects=0" deleted="false" unpublish="true" revision="1" score="0.6842901">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide/02_Make_and_Receive_Calls</uri.ui>
+        <title>Make and Receive Calls</title>
+        <path seo="true" type="custom">Smart_Phones/Mere_Phones/User_Guide/02_Make_and_Receive_Calls</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:43Z</date.created>
+        <language>en-US</language>
+        <article>topic</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>438</metric.views>
+            <metric.charcount>1415</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:43Z</date.edited>
+        <date.modified>2017-09-07T23:20:45Z</date.modified>
+        <timeuuid>2c888480-9423-11e7-80c4-65b5cd172cfa</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>Page created, 144 words added</description>
+        <page.parent id="314" guid="bbacbc8621474363b6795fef78a85906" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/314?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones/User_Guide</uri.ui>
+            <title>User Guide</title>
+            <path seo="true">Smart_Phones/Mere_Phones/User_Guide</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:42Z</date.created>
+            <language>en-US</language>
+            <article>topic-guide</article>
+            <page.parent id="313" guid="1b3a3addb3cf4a14b11f0223a6f7f206" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones</uri.ui>
+                <title>Mere Phones</title>
+                <path seo="true">Smart_Phones/Mere_Phones</path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:20:41Z</date.created>
+                <language>en-US</language>
+                <article>topic-guide</article>
+                <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+                    <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+                    <title>Smart Phones</title>
+                    <path seo="true">Smart_Phones</path>
+                    <namespace>main</namespace>
+                    <date.created>2017-09-07T23:20:39Z</date.created>
+                    <language>en-US</language>
+                    <article>topic-category</article>
+                    <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                        <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                        <title>Home</title>
+                        <path seo="true" type="fixed"></path>
+                        <namespace>main</namespace>
+                        <date.created>2017-09-07T23:18:34Z</date.created>
+                        <language>en-US</language>
+                        <article>topic-portfolio</article>
+                    </page.parent>
+                </page.parent>
+            </page.parent>
+        </page.parent>
+        <rating score="0.5" count="4" date="2019-04-10T06:56:20Z" seated.score="1" seated.count="2" unseated.score="0" unseated.count="1" anonymous.score="0" anonymous.count="1">
+            <user.ratedby id="1" score="1" date="2019-04-09T07:56:20Z" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1" seated="true" />
+        </rating>
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/aliases" />
+        <revisions count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FMere_Phones%252FUser_Guide%252F02_Make_and_Receive_Calls/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/comments" />
+        <properties count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/properties">
+            <property revision="2" resid="84" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/properties/mindtouch.page%2523overview/info" etag="84.r2_ts2017-09-07T23:20:45Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="78" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/properties/mindtouch.page%2523overview">This article outlines how to make and receive calls on your Mavion Mere phone.</contents>
+                <date.modified>2017-09-07T23:20:45Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="83" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/properties/mindtouch.import%2523info/info" etag="83.r1_ts2017-09-07T23:20:43Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>59c7694ddaac75581118d4786c9e39b0</etag>
+                        <date.modified>2017-04-22T00:50:26Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:43Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 1</change-description>
+            </property>
+        </properties>
+        <tags count="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/tags">
+            <tag value="article:topic" id="5" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/5">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic</uri>
+                <type>text</type>
+                <title>article:topic</title>
+            </tag>
+            <tag value="Phone Calls" id="14" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/14">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=Phone+Calls</uri>
+                <type>text</type>
+                <title>Phone Calls</title>
+            </tag>
+            <tag value="stage:final" id="15" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/15">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=stage:final</uri>
+                <type>text</type>
+                <title>stage:final</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/contents" etag="59c7694ddaac75581118d4786c9e39b0" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/317/pdf/Make%2band%2bReceive%2bCalls.pdf" />
+    </page>
+    <page id="315" guid="131f31dcaac7404a8f48d221204e106e" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315?redirects=0" deleted="false" unpublish="false" revision="2" score="0.6312882">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Clix_Phones</uri.ui>
+        <title>Clix Phones</title>
+        <path seo="true">Smart_Phones/Clix_Phones</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:42Z</date.created>
+        <language>en-US</language>
+        <article>topic-category</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>209</metric.views>
+            <metric.charcount>418</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:44Z</date.edited>
+        <date.modified>2017-09-07T23:20:44Z</date.modified>
+        <timeuuid>2befee00-9423-11e7-802e-b082b1971384</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>39 words added, 4 words removed</description>
+        <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+            <title>Smart Phones</title>
+            <path seo="true">Smart_Phones</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:39Z</date.created>
+            <language>en-US</language>
+            <article>topic-category</article>
+            <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                <title>Home</title>
+                <path seo="true" type="fixed"></path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:18:34Z</date.created>
+                <language>en-US</language>
+                <article>topic-portfolio</article>
+            </page.parent>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FClix_Phones/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/comments" />
+        <properties count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties">
+            <property revision="1" resid="88" name="mindtouch.idf#subpageListing" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.idf%2523subpageListing/info" etag="88.r1_ts2017-09-07T23:20:44Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=UTF-8" size="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.idf%2523subpageListing">detailed</contents>
+                <date.modified>2017-09-07T23:20:44Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="2" resid="87" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.page%2523overview/info" etag="87.r2_ts2017-09-07T23:20:44Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="132" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.page%2523overview">Mavion Clix phones keep the clutter out of the way. Equipped with only a keyboard, the Clix will revolutionize the way you interact.</contents>
+                <date.modified>2017-09-07T23:20:44Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="86" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.import%2523info/info" etag="86.r1_ts2017-09-07T23:20:44Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>543b8f37a33b9f9fa07a6b5fee6525c9</etag>
+                        <date.modified>2016-06-24T15:51:22Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:44Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 2</change-description>
+            </property>
+        </properties>
+        <tags count="5" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/tags">
+            <tag value="article:topic-category" id="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/1">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic-category</uri>
+                <type>text</type>
+                <title>article:topic-category</title>
+            </tag>
+            <tag value="Clix" id="19" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/19">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=Clix</uri>
+                <type>text</type>
+                <title>Clix</title>
+            </tag>
+            <tag value="Mavion" id="20" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/20">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=Mavion</uri>
+                <type>text</type>
+                <title>Mavion</title>
+            </tag>
+            <tag value="stage:draft" id="18" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/18">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=stage:draft</uri>
+                <type>text</type>
+                <title>stage:draft</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/contents" etag="543b8f37a33b9f9fa07a6b5fee6525c9" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/315/pdf/Clix%2bPhones.pdf" />
+    </page>
+    <page id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false" unpublish="false" revision="2" score="0.5786809">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+        <title>Smart Phones</title>
+        <path seo="true">Smart_Phones</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:39Z</date.created>
+        <language>en-US</language>
+        <article>topic-category</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>233</metric.views>
+            <metric.charcount>577</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:41Z</date.edited>
+        <date.modified>2017-09-11T16:56:38Z</date.modified>
+        <timeuuid>2d1a6700-9712-11e7-80a7-453c8b706982</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>45 words added, 4 words removed</description>
+        <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+            <title>Home</title>
+            <path seo="true" type="fixed"></path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <language>en-US</language>
+            <article>topic-portfolio</article>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/comments" />
+        <properties count="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties">
+            <property revision="1" resid="72" name="mindtouch.page#welcomeHidden" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.page%2523welcomeHidden/info" etag="72.r1_ts2017-09-07T23:20:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=UTF-8" size="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.page%2523welcomeHidden">true</contents>
+                <date.modified>2017-09-07T23:20:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="71" name="mindtouch.idf#subpageListing" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.idf%2523subpageListing/info" etag="71.r1_ts2017-09-07T23:20:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="6" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.idf%2523subpageListing">simple</contents>
+                <date.modified>2017-09-07T23:20:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="2" resid="70" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.page%2523overview/info" etag="70.r2_ts2017-09-07T23:20:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="98" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.page%2523overview">Mavion Smart Phones are some of the most intuitive phones available. Keep reading to find out why.</contents>
+                <date.modified>2017-09-07T23:20:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="69" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.import%2523info/info" etag="69.r1_ts2017-09-07T23:20:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>dfa5c54a919a56d20f94756c00fa4f95</etag>
+                        <date.modified>2017-04-03T19:41:10Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 2</change-description>
+            </property>
+        </properties>
+        <tags count="4" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/tags">
+            <tag value="article:topic-category" id="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/1">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic-category</uri>
+                <type>text</type>
+                <title>article:topic-category</title>
+            </tag>
+            <tag value="bestpractice:true" id="6" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/6">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=bestpractice:true</uri>
+                <type>text</type>
+                <title>bestpractice:true</title>
+            </tag>
+            <tag value="version:v1" id="7" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/7">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:v1</uri>
+                <type>text</type>
+                <title>version:v1</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/contents" etag="dfa5c54a919a56d20f94756c00fa4f95" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312/pdf/Smart%2bPhones.pdf" />
+    </page>
+    <page id="313" guid="1b3a3addb3cf4a14b11f0223a6f7f206" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313?redirects=0" deleted="false" unpublish="false" revision="2" score="0.5260735">
+        <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones/Mere_Phones</uri.ui>
+        <title>Mere Phones</title>
+        <path seo="true">Smart_Phones/Mere_Phones</path>
+        <namespace>main</namespace>
+        <date.created>2017-09-07T23:20:41Z</date.created>
+        <language>en-US</language>
+        <article>topic-guide</article>
+        <language.effective>en-US</language.effective>
+        <metrics>
+            <metric.views>171</metric.views>
+            <metric.charcount>341</metric.charcount>
+        </metrics>
+        <summary />
+        <security href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/security">
+            <permissions.effective>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+            </permissions.effective>
+            <permissions.page>
+                <operations mask="18446744073709551615">LOGIN,BROWSE,READ,SUBSCRIBE,UPDATE,CREATE,DELETE,CHANGEPERMISSIONS,CONTROLPANEL,UNSAFECONTENT,USERHISTORY,DRAFT_UPDATE,DRAFT_CREATE,DRAFT_DELETE,ADMIN</operations>
+                <restriction id="1">Public</restriction>
+            </permissions.page>
+            <grants />
+            <permissions.revoked />
+        </security>
+        <user.createdby anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.createdby>
+        <date.edited>2017-09-07T23:20:41Z</date.edited>
+        <date.modified>2019-06-26T07:49:09Z</date.modified>
+        <timeuuid>e1518880-97e6-11e9-80c8-2032b5463157</timeuuid>
+        <user.author anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+            <nick>admin</nick>
+            <username>admin</username>
+            <fullname></fullname>
+            <email>derekm@mindtouch.com</email>
+            <password exists="true" />
+            <license.seat owner="true">true</license.seat>
+            <date.created>2017-09-07T23:18:34Z</date.created>
+            <status>active</status>
+            <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+            <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+            <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+            <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+        </user.author>
+        <description>29 words added, 4 words removed</description>
+        <page.parent id="312" guid="04206f020acc4e338bdedf0e4c4c8137" draft.state="inactive" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/312?redirects=0" deleted="false">
+            <uri.ui>https://sapdemo-responsive.mindtouch.us/Smart_Phones</uri.ui>
+            <title>Smart Phones</title>
+            <path seo="true">Smart_Phones</path>
+            <namespace>main</namespace>
+            <date.created>2017-09-07T23:20:39Z</date.created>
+            <language>en-US</language>
+            <article>topic-category</article>
+            <page.parent id="1" guid="00000000000000000000000000000000" draft.state="active" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/1?redirects=0" deleted="false">
+                <uri.ui>https://sapdemo-responsive.mindtouch.us/</uri.ui>
+                <title>Home</title>
+                <path seo="true" type="fixed"></path>
+                <namespace>main</namespace>
+                <date.created>2017-09-07T23:18:34Z</date.created>
+                <language>en-US</language>
+                <article>topic-portfolio</article>
+            </page.parent>
+        </page.parent>
+        <rating score="" count="0" seated.score="" seated.count="0" unseated.score="" unseated.count="0" anonymous.score="" anonymous.count="0" />
+        <subpages href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/subpages" />
+        <aliases href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/aliases" />
+        <revisions count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/revisions" />
+        <revisions.archive count="0" deprecated="true" href="https://sapdemo-responsive.mindtouch.us/@api/deki/archive/pages/=Smart_Phones%252FMere_Phones/revisions" />
+        <comments count="0" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/comments" />
+        <properties count="3" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties">
+            <property revision="1" resid="76" name="mindtouch.idf#subpageListing" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.idf%2523subpageListing/info" etag="76.r1_ts2017-09-07T23:20:42Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=UTF-8" size="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.idf%2523subpageListing">detailed</contents>
+                <date.modified>2017-09-07T23:20:42Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="2" resid="75" name="mindtouch.page#overview" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.page%2523overview/info" etag="75.r2_ts2017-09-07T23:20:42Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="text/plain; charset=utf-8" size="138" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.page%2523overview">Mere phones have a streamlined glass interface, removing the need for typing. Quickly read on the go, but replying? Who has time for that.</contents>
+                <date.modified>2017-09-07T23:20:42Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description></change-description>
+            </property>
+            <property revision="1" resid="74" name="mindtouch.import#info" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.import%2523info/info" etag="74.r1_ts2017-09-07T23:20:41Z" resource-is-deleted="false" resource-rev-is-deleted="false">
+                <contents type="application/xml; charset=utf-8" size="123" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/properties/mindtouch.import%2523info">
+                    <last-import>
+                        <etag>1ce8a5cd74f28903ee5472f3865c6dbd</etag>
+                        <date.modified>2016-06-24T15:50:05Z</date.modified>
+                    </last-import>
+                </contents>
+                <date.modified>2017-09-07T23:20:41Z</date.modified>
+                <user.modified anonymous="false" virtual="false" id="1" wikiid="site_11942" href="https://sapdemo-responsive.mindtouch.us/@api/deki/users/1">
+                    <nick>admin</nick>
+                    <username>admin</username>
+                    <fullname></fullname>
+                    <email>derekm@mindtouch.com</email>
+                    <password exists="true" />
+                    <license.seat owner="true">true</license.seat>
+                    <date.created>2017-09-07T23:18:34Z</date.created>
+                    <status>active</status>
+                    <date.lastlogin>2019-07-15T07:49:42Z</date.lastlogin>
+                    <hash.email>a82c09cb6de700352116a565ca97c624</hash.email>
+                    <uri.gravatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.gravatar>
+                    <uri.avatar>https://gravatar.com/avatar/a82c09cb6de700352116a565ca97c624.png?d=mm</uri.avatar>
+                </user.modified>
+                <change-description>import at revision 2</change-description>
+            </property>
+        </properties>
+        <tags count="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/tags">
+            <tag value="article:topic-guide" id="2" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/2">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=article:topic-guide</uri>
+                <type>text</type>
+                <title>article:topic-guide</title>
+            </tag>
+            <tag value="version:V1-0" id="8" href="https://sapdemo-responsive.mindtouch.us/@api/deki/site/tags/8">
+                <uri>https://sapdemo-responsive.mindtouch.us/Special:Tags?tag=version:V1-0</uri>
+                <type>text</type>
+                <title>version:V1-0</title>
+            </tag>
+        </tags>
+        <files count="1" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/files?redirects=0" />
+        <contents type="application/vnd.deki1410+xml" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/contents" etag="1ce8a5cd74f28903ee5472f3865c6dbd" />
+        <contents.alt type="application/pdf" href="https://sapdemo-responsive.mindtouch.us/@api/deki/pages/313/pdf/Mere%2bPhones.pdf" />
+    </page>
+</search>

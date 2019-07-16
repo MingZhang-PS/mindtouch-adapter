@@ -14,6 +14,7 @@ export class AppController {
     // return this.appService.getHello();
     // 1. get response from mindtouch
     // 2. data tranform flow
+    console.log(queries)
     return null;
   }
 
