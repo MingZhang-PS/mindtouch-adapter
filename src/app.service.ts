@@ -1,7 +1,7 @@
 import { Injectable, HttpService } from '@nestjs/common';
 import { XmlDocument } from 'xmldoc';
 import { AxiosRequestConfig } from 'axios';
-import { IConnectionCredential } from './dto/interface/connectionCredential.interface';
+import { ConnectionCredential } from './dto/connectionCredential';
 import { SearchPayloadDTO } from './dto/searchPayload.dto';
 import { TokenService } from './token/token.service';
 
@@ -14,7 +14,7 @@ export class AppService {
   constructor(private readonly httpService: HttpService,
               private readonly tokenService: TokenService) { }
 
-  private generateSearchReqConfig(searchPayload: SearchPayloadDTO, credential: IConnectionCredential): AxiosRequestConfig {
+  private generateSearchReqConfig(searchPayload: SearchPayloadDTO, credential: ConnectionCredential): AxiosRequestConfig {
     const reqConfig = {
       params: {
         'q': searchPayload.search,
@@ -40,7 +40,7 @@ export class AppService {
     return reqConfig;
   }
 
-  private generateGetReqConfig(credential: IConnectionCredential): AxiosRequestConfig {
+  private generateGetReqConfig(credential: ConnectionCredential): AxiosRequestConfig {
     return {
       headers: {'X-Deki-Token': this.tokenService.generateXDekiToken(credential)},
     };
@@ -48,7 +48,7 @@ export class AppService {
 
   // TODO: 1. http request backoff 2. error handling
   // 3. http long-live connection pool (if it is tenant level, not business user level, we may reuse http connection in giving tenant)
-  searchArticles(searchPayload: SearchPayloadDTO, credential: IConnectionCredential): Promise<XmlDocument> {
+  searchArticles(searchPayload: SearchPayloadDTO, credential: ConnectionCredential): Promise<XmlDocument> {
     const reqConfig = this.generateSearchReqConfig(searchPayload, credential);
     return new Promise((resolve, reject) => {
       this.httpService.get(credential.siteURL + this.searchEndpoint, reqConfig)
@@ -60,7 +60,7 @@ export class AppService {
     });
   }
 
-  getArticle(id: string, credential: IConnectionCredential): Promise<XmlDocument> {
+  getArticle(id: string, credential: ConnectionCredential): Promise<XmlDocument> {
     const reqConfig = this.generateGetReqConfig(credential);
     return new Promise((resolve, reject) => {
       this.httpService.get(credential.siteURL + this.getEndpoint.replace('${id}', id), reqConfig)
