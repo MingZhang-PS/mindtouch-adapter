@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import crypto = require('crypto');
-import { IConnectionCredential } from 'src/dto/interface/connectionCredential.interface';
+import { ConnectionCredential } from 'src/dto/connectionCredential';
 
 @Injectable()
 export class TokenService {
-    generateXDekiToken(credential: IConnectionCredential): string {
+    generateXDekiToken(credential: ConnectionCredential): string {
         const { key, secret } = credential;
         // Assume the user is username, not userid. According to Mindtouch API guide
         // https://success.mindtouch.com/Integrations/API/API_Tokens/Server_API_Tokens/Use_a_server_API_token_with_an_integration

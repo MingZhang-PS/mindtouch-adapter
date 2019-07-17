@@ -1,11 +1,22 @@
-import { ApiModelProperty } from '@nestjs/swagger';
-import { Type } from 'class-transformer';
-import { IsString, ValidateNested, IsNumber, IsOptional, IsArray, IsEmpty, IsNotEmpty, IsDefined } from 'class-validator';
+import { IsString, IsNumber, IsOptional, IsArray, IsNotEmpty, IsJSON } from 'class-validator';
+import { ConnectionCredential } from './connectionCredential';
+
 export class SearchPayloadDTO {
+    @IsNotEmpty()
     readonly search: string;
+    @IsOptional()
+    @IsNumber()
     readonly page?: number;
+    @IsOptional()
+    @IsNumber()
     readonly pageSize?: number;
+    @IsOptional()
+    @IsString()
     readonly orderBy?: string;
+    @IsOptional()
+    @IsArray()
     readonly fields?: string[];
-    readonly connectionData: string;
+    @IsJSON()
+    @IsNotEmpty()
+    connectionData: ConnectionCredential;
 }
