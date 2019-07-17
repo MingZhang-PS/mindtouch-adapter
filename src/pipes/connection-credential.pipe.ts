@@ -1,8 +1,8 @@
-import { ConnectionDTO } from '../dto/connection.dto';
 import { ArgumentMetadata, Injectable, PipeTransform, BadRequestException } from '@nestjs/common';
 import { transformAndValidate } from 'class-transformer-validator';
 import { ConnectionCredential } from '../dto/connectionCredential';
 import { SearchPayloadDTO } from '../dto/searchPayload.dto';
+import { ConnectionDTO } from '../dto/connection.dto';
 
 @Injectable()
 export class ConnectionCredentialPipe implements PipeTransform {
