@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "fd163cb2-3384-4187-9f0a-a1794232919d",
+		"name": "MindtouchAdapterLocal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3004/portal/mindtouch/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"search\": \"How to turn up your phone\",\"connectionData\":\"{\\\"siteURL\\\": \\\"https://sapdemo-responsive.mindtouch.us\\\",\\\"user\\\": \\\"admin\\\",\\\"key\\\": \\\"5cd197ff89096ce78a1e27b28bf371e2d3bb065e51e3b607fdf13f7c7630bf11\\\",\\\"secret\\\": \\\"f6d3306b11dd361c165ca981280bcdaa0c56a6d5bd9b36c8497a99b2ab4c16b9\\\"}\",\"page\": 0,\"pageSize\": 10}"
+				},
+				"url": {
+					"raw": "http://localhost:3004/portal/mindtouch/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"portal",
+						"mindtouch",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "test",
+							"disabled": true
+						},
+						{
+							"key": "connectionData",
+							"value": "{\"siteURL\":\"https://sapdemo-responsive.mindtouch.us/\",\"user\":\"admin\",\"key\":\"dacaffe7ce69dfd1071531e925f667905a1c981fb40d06c676880e84352cb3aa\",\"secret\":\"5b70319201e9abad12a3458b32ed30cf634ef569ea47906e5012baf11cab5046\"}",
+							"disabled": true
+						},
+						{
+							"key": "siteURL",
+							"value": "https://sapdemo-responsive.mindtouch.us",
+							"disabled": true
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "SAP2017!",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "pageSize",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3004/portal/mindtouch/view/317",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"connectionData\": \"{\\\"siteURL\\\": \\\"https://sapdemo-responsive.mindtouch.us\\\",\\\"user\\\": \\\"admin\\\",\\\"key\\\": \\\"404297296448ab34060ab2e620ed64a8e6db0e1d0b49d9a04ea3d2d1b791f63b\\\",\\\"secret\\\": \\\"338c1ca15a357de988bf948fad3452408dd178c5bda7f6bcc5942913380aa47c\\\"}\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3004/portal/mindtouch/view/317",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"portal",
+						"mindtouch",
+						"view",
+						"317"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "test",
+							"disabled": true
+						},
+						{
+							"key": "connectionData",
+							"value": "{\"siteURL\":\"https://sapdemo-responsive.mindtouch.us/\",\"user\":\"admin\",\"key\":\"dacaffe7ce69dfd1071531e925f667905a1c981fb40d06c676880e84352cb3aa\",\"secret\":\"5b70319201e9abad12a3458b32ed30cf634ef569ea47906e5012baf11cab5046\"}",
+							"disabled": true
+						},
+						{
+							"key": "siteURL",
+							"value": "https://sapdemo-responsive.mindtouch.us",
+							"disabled": true
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "SAP2017!",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "pageSize",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
