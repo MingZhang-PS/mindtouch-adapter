@@ -15,7 +15,6 @@ export class AppController {
 
   @Post('search')
   async search(@Body() searchPayload: SearchPayloadDTO) {
-    // return this.appService.getHello();
     // 1. get response from mindtouch
     // 2. data tranform flow
     console.log(searchPayload);

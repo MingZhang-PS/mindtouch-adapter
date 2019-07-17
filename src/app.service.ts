@@ -24,7 +24,7 @@ export class AppService {
         // 'sortBy:-rank': null,
         'origin:mt-web': null,
       },
-      // headers: {'X-Deki-Token': tokenService.generateToken(credential)},
+      headers: {'X-Deki-Token': this.tokenService.generateXDekiToken(credential)},
     };
     if (searchPayload.orderBy && searchPayload.orderBy.trim().length > 0) {
       const orderParams: string[] = searchPayload.orderBy.split(' ');
@@ -42,7 +42,7 @@ export class AppService {
 
   private generateGetReqConfig(credential: IConnectionCredential): AxiosRequestConfig {
     return {
-     // headers: {'X-Deki-Token': tokenService.generateToken(credential)},
+      headers: {'X-Deki-Token': this.tokenService.generateXDekiToken(credential)},
     };
   }
 

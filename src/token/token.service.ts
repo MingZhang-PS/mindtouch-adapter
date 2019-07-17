@@ -5,10 +5,12 @@ import { IConnectionCredential } from 'src/dto/interface/connectionCredential.in
 @Injectable()
 export class TokenService {
     generateXDekiToken(credential: IConnectionCredential): string {
-        // API Token key and secret are available from API token management dashboard when API token is generated
-        const { user, key, secret } = credential;
-
+        const { key, secret } = credential;
+        // Assume the user is username, not userid. According to Mindtouch API guide
+        // https://success.mindtouch.com/Integrations/API/API_Tokens/Server_API_Tokens/Use_a_server_API_token_with_an_integration
+        // A MindTouch username prefixed with `=` (e.g. =admin). The API request will be handled in the context of this user identity.
         // hash time, key, user with secret
+        const user = '=' + credential.user;
         const hmac = crypto.createHmac('sha256', secret);
         const epoch = Math.floor(Date.now() / 1000);
         hmac.update(`${key}_${epoch}_${user}`);
