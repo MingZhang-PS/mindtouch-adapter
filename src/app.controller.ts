@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { ConnectionDTO } from './dto/connection.dto';
 import { SearchPayloadDTO } from './dto/searchPayload.dto';
 import { ConnectionCredentialPipe } from './pipes/connection-credential.pipe';
+import { XMLMessageMappingHelper4Search } from './dataTransformer/XMLMessageMappingHelper4Search';
 
 @Controller('portal/mindtouch')
 export class AppController {
@@ -17,7 +18,10 @@ export class AppController {
     const searchResultsInXML: XmlDocument = await this.appService.searchArticles(searchPayload,
       searchPayload.connectionData);
     console.log(searchResultsInXML);
-    return null;
+
+    let transformer = new XMLMessageMappingHelper4Search();
+    let result = transformer.map(searchResultsInXML);
+    return result;
   }
 
   @Post('view/:id')

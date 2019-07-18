@@ -37,7 +37,7 @@ describe('XMLMessageMappingHelper4Search', () => {
         const xmldocument = new xmldoc.XmlDocument(xmldata.toString());
         const result = transformer.map(xmldocument);
         console.log(result.data[0].id);
-        expect(result.data[0].id).toBe("123464666");
+        expect(result.data[0].id).toBe("12346");
       }
     });
   });
