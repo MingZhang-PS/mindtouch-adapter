@@ -13,8 +13,7 @@ describe('AppService', () => {
     const fakeObservable = empty();
     const fakeToken = 'fake token';
     const fakeSearchTerm = 'i do not want to search anything';
-    let httpGetSpy;
-    let tokengeneratorSpy;
+    const fakeXMLString = '<some>xml</some>';
 
     beforeEach(async () => {
         const module: TestingModule = await Test.createTestingModule({
@@ -25,10 +24,8 @@ describe('AppService', () => {
         testService = module.get<AppService>(AppService);
         httpService = module.get<HttpService>(HttpService);
         tokenService = module.get<TokenService>(TokenService);
-        httpGetSpy = jest.spyOn(httpService, 'get');
-        httpGetSpy.mockImplementation(() => fakeObservable);
-        tokengeneratorSpy = jest.spyOn(tokenService, 'generateXDekiToken');
-        tokengeneratorSpy.mockImplementation(() => fakeToken);
+        jest.spyOn(httpService, 'get').mockImplementation(() => fakeObservable);
+        jest.spyOn(tokenService, 'generateXDekiToken').mockImplementation(() => fakeToken);
     });
 
     it('should mindtouch search endpoint called properly', (done) => {
@@ -44,9 +41,7 @@ describe('AppService', () => {
             pageSize: 10,
         };
 
-        const fakeXMLString = '<some>xml</some>';
-
-        jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
+        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
         testService.searchArticles(searchPayload).then((xml) => {
             expect(httpService.get).toHaveBeenCalledTimes(1);
             expect(httpService.get).toHaveBeenCalledWith(searchPayload.connectionData.siteURL + testService.searchEndpoint,
@@ -60,7 +55,9 @@ describe('AppService', () => {
                         'q': fakeSearchTerm,
                     },
                 });
+            expect(spy).toHaveBeenCalled();
             expect(xml.toString()).toBe(fakeXMLString);
+           // spy.mockRestore();
             done();
         });
     });
@@ -73,18 +70,17 @@ describe('AppService', () => {
                 secret: 'invalid secret',
         };
 
-        const fakeXMLString = '<some>xml</some>';
-
-        jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
+        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
         testService.getArticle('123', credential).then((xml) => {
             expect(httpService.get).toHaveBeenCalledTimes(1);
             expect(httpService.get).toHaveBeenCalledWith(credential.siteURL + testService.getEndpoint.replace('${id}', '123'),
                 {
                     headers: { 'X-Deki-Token': fakeToken },
                 });
+            expect(spy).toHaveBeenCalled();
             expect(xml.toString()).toBe(fakeXMLString);
+           // spy.mockRestore();
             done();
         });
     });
-
 });
