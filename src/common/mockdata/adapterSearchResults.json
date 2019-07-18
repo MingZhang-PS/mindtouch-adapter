@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": "12346",
+            "provider": "Mindtouch",
+            "title": "mock data for test",
+            "content": "This guide provides an overview of product features and related technologies",
+            "lastUpdated": "2016-12-16T06:18:26Z",
+            "score": 0.9,
+            "link": "https://sapdemo-responsive.mindtouch.us/Workstations/test_guide",
+            "renderType": "IFRAME",
+            "renderValue": "https://f1.sapdemo-responsive.mindtouch.us/Workstations/test_guide",
+            "views": 125,
+            "author": "kaka Bond",
+            "category": "",
+            "upvotes": 25,
+            "devotes": 0,
+            "tag": [
+                "test",
+                "coffee maker"
+            ]
+        },
+        {
+            "id": "12347",
+            "provider": "Mindtouch",
+            "title": "peter test",
+            "content": "This guide provides an overview of product features and related technologies",
+            "lastUpdated": "2016-12-16T06:18:26Z",
+            "score": 0.9,
+            "link": "https://sapdemo-responsive.mindtouch.us/Workstations/test_guide",
+            "renderType": "IFRAME",
+            "renderValue": "https://f1.sapdemo-responsive.mindtouch.us/Workstations/test_guide",
+            "views": 125,
+            "author": "kaka Bond",
+            "category": "",
+            "upvotes": 25,
+            "devotes": 0,
+            "tag": [
+                "test",
+                "coffee maker"
+            ]
+        }
+    ],
+    "pageSize": 5,
+    "currentPage": 1,
+    "lastPage": 2,
+    "totalObjectCount": 30
+}
