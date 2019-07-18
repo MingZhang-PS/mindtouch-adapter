@@ -7,12 +7,38 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug Nest Framework",
-            "args": ["${workspaceFolder}/src/main.ts"],
-            "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+            "name": "Debug App",
+            "args": [
+                "${workspaceFolder}/src/main.ts"
+            ],
+            "runtimeArgs": [
+                "--nolazy",
+                "-r",
+                "ts-node/register"
+            ],
             "sourceMaps": true,
             "cwd": "${workspaceRoot}",
             "protocol": "inspector"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Unit Tests",
+            "cwd": "${workspaceFolder}",
+            "args": [
+              "--inspect-brk",
+              "${workspaceRoot}/node_modules/.bin/jest",
+              "--runInBand",
+            ],
+            "windows": {
+              "args": [
+                "--inspect-brk",
+                "${workspaceRoot}/node_modules/jest/bin/jest.js",
+                "--runInBand"
+              ],
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+          },
     ]
 }

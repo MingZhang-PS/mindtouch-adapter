@@ -1,5 +1,4 @@
-import { IsString, IsNotEmpty, IsJSON } from 'class-validator';
-import { Transform, plainToClass, Type } from 'class-transformer';
+import { IsNotEmpty, IsJSON } from 'class-validator';
 import { ConnectionCredential } from './connectionCredential';
 
 export class ConnectionDTO {

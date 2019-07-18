@@ -7,14 +7,14 @@ import { TokenService } from './token/token.service';
 
 @Injectable()
 export class AppService {
-  private readonly searchEndpoint: string = '/@api/deki/site/search';
-  private readonly getEndpoint: string = '/@api/deki/pages/${id}';
-  private readonly searchConstraint: string = 'type:wiki AND +(+namespace:main)';
+  readonly searchEndpoint: string = '/@api/deki/site/search';
+  readonly getEndpoint: string = '/@api/deki/pages/${id}';
+  readonly searchConstraint: string = 'type:wiki AND +(+namespace:main)';
 
   constructor(private readonly httpService: HttpService,
               private readonly tokenService: TokenService) { }
 
-  private generateSearchReqConfig(searchPayload: SearchPayloadDTO, credential: ConnectionCredential): AxiosRequestConfig {
+  private generateSearchReqConfig(searchPayload: SearchPayloadDTO): AxiosRequestConfig {
     const reqConfig = {
       params: {
         'q': searchPayload.search,
@@ -24,7 +24,7 @@ export class AppService {
         // 'sortBy:-rank': null,
         'origin:mt-web': null,
       },
-      headers: {'X-Deki-Token': this.tokenService.generateXDekiToken(credential)},
+      headers: {'X-Deki-Token': this.tokenService.generateXDekiToken(searchPayload.connectionData)},
     };
     if (searchPayload.orderBy && searchPayload.orderBy.trim().length > 0) {
       const orderParams: string[] = searchPayload.orderBy.split(' ');
@@ -48,10 +48,10 @@ export class AppService {
 
   // TODO: 1. http request backoff 2. error handling
   // 3. http long-live connection pool (if it is tenant level, not business user level, we may reuse http connection in giving tenant)
-  searchArticles(searchPayload: SearchPayloadDTO, credential: ConnectionCredential): Promise<XmlDocument> {
-    const reqConfig = this.generateSearchReqConfig(searchPayload, credential);
+  searchArticles(searchPayload: SearchPayloadDTO): Promise<XmlDocument> {
+    const reqConfig = this.generateSearchReqConfig(searchPayload);
     return new Promise((resolve, reject) => {
-      this.httpService.get(credential.siteURL + this.searchEndpoint, reqConfig)
+      this.httpService.get(searchPayload.connectionData.siteURL + this.searchEndpoint, reqConfig)
         .toPromise().then(
           res => {
             resolve(new XmlDocument(res.data));

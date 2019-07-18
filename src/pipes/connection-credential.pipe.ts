@@ -11,7 +11,7 @@ export class ConnectionCredentialPipe implements PipeTransform {
     try {
       credential = await transformAndValidate(ConnectionCredential, value.connectionData );
     } catch (err) {
-      throw new BadRequestException();
+      throw new BadRequestException('Invlid DTO');
     }
     value.connectionData = credential;
     return value;
