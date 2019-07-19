@@ -17,8 +17,7 @@ describe('XML2JsonHelper', () => {
   test('xml string to json', () => {
     const xmldocument = new xmldoc.XmlDocument("<data>search result is here</data>");
     const parser = new XML2JsonHelper();
-    const json_result = parser.transform(xmldocument);
-    const result = JSON.parse(json_result);
+    const result = parser.transform(xmldocument);
     expect(result.data).toBe("search result is here");
   });
 
@@ -29,8 +28,7 @@ describe('XML2JsonHelper', () => {
       } else {
         const parser = new XML2JsonHelper();
         const xmldocument = new xmldoc.XmlDocument(xmldata.toString());
-        const json_result = parser.transform(xmldocument);
-        const result = JSON.parse(json_result);
+        const result = parser.transform(xmldocument);
         expect(result.search.page[0].title).toBe("Turning On Your Phone");
       }
     });
