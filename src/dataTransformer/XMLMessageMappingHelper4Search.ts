@@ -36,16 +36,21 @@ export class XMLMessageMappingHelper4Search {
             article.title = page.title;
             article.lastUpdated = page["date.modified"];
             article.score = page.score;
-            article.author = page["user.author"].fullname;
+            if (Object.keys(page["user.author"].fullname).length > 0) {
+                article.author = page["user.author"].fullname;
+            } else {
+                article.author = page["user.author"].nick;
+            }
             article.provider = provider;
             article.renderType = renderType;
             article.views = page.metrics["metric.views"];
             //todo: populate tags (1911+)
             article.link = page["uri.ui"];
+
             //To-do: fomulate right renderValue
             article.renderValue = page["uri.ui"];
 
-            //To-do: convert score to float
+            //To-do: logic for current page
             //To-do: calculate devotes and upvotes (1911+)
 
             resultJson.data.knowledgeArticle.push(article);
