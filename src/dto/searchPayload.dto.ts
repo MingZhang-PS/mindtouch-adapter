@@ -6,10 +6,10 @@ export class SearchPayloadDTO {
     readonly search: string;
     @IsOptional()
     @IsNumber()
-    readonly page?: number;
+    page?: number;
     @IsOptional()
     @IsNumber()
-    readonly pageSize?: number;
+    pageSize?: number;
     @IsOptional()
     @IsString()
     readonly orderBy?: string;
