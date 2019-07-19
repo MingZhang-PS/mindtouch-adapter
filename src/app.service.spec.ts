@@ -1,3 +1,4 @@
+import { AxiosResponse } from 'axios';
 import { HttpService, HttpModule } from '@nestjs/common';
 import { empty } from 'rxjs';
 import { Test, TestingModule } from '@nestjs/testing';
@@ -25,6 +26,7 @@ describe('AppService', () => {
         httpService = module.get<HttpService>(HttpService);
         tokenService = module.get<TokenService>(TokenService);
         jest.spyOn(httpService, 'get').mockImplementation(() => fakeObservable);
+        jest.spyOn(fakeObservable, 'pipe').mockImplementation(() => fakeObservable);
         jest.spyOn(tokenService, 'generateXDekiToken').mockImplementation(() => fakeToken);
     });
 
@@ -41,7 +43,7 @@ describe('AppService', () => {
             pageSize: 10,
         };
 
-        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
+        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({data: fakeXMLString}));
         testService.searchArticles(searchPayload).then((xml) => {
             expect(httpService.get).toHaveBeenCalledTimes(1);
             expect(httpService.get).toHaveBeenCalledWith(searchPayload.connectionData.siteURL + testService.searchEndpoint,
@@ -70,7 +72,7 @@ describe('AppService', () => {
                 secret: 'invalid secret',
         };
 
-        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({ data: fakeXMLString }));
+        const spy = jest.spyOn(fakeObservable, 'toPromise').mockImplementationOnce(() => Promise.resolve({data: fakeXMLString}));
         testService.getArticle('123', credential).then((xml) => {
             expect(httpService.get).toHaveBeenCalledTimes(1);
             expect(httpService.get).toHaveBeenCalledWith(credential.siteURL + testService.getEndpoint.replace('${id}', '123'),
