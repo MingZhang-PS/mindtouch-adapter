@@ -3,7 +3,8 @@ import parser = require('xml2json');
 
 export class XML2JsonHelper {
     transform(xml: XmlDocument): any {
-        const json = parser.toJson(xml.toString());
-        return json;
+        const jsonString = parser.toJson(xml.toString());
+        const jsonObject = JSON.parse(jsonString);
+        return jsonObject;
     }
 }
