@@ -6,7 +6,7 @@ import { IArticleWrapper } from '../dto/interface/articleWrapper.interface';
 
 export class XMLMessageMappingHelper4Search {
     map(source: XmlDocument): SearchResultsDTO {
-        const mockAdapterSearchResults = require('../common/mockdata/adapterSearchResults.json');
+        //        const mockAdapterSearchResults = require('../common/mockdata/adapterSearchResults.json');
         const jsonParser = new XML2JsonHelper();
         const sourceJson = jsonParser.transform(source);
         console.log(sourceJson);
@@ -14,7 +14,14 @@ export class XMLMessageMappingHelper4Search {
         let resultJson = new SearchResultsDTO();
         resultJson.pageSize = sourceJson.search.count;
         resultJson.totalObjectCount = sourceJson.search.querycount;
-        resultJson.lastPage = resultJson.totalObjectCount / resultJson.pageSize + 1;
+        let lastPageFloat = resultJson.totalObjectCount / resultJson.pageSize;
+        let lastPageInt = parseInt(lastPageFloat.toString());
+        if (lastPageInt == lastPageFloat) {
+            resultJson.lastPage = lastPageInt;
+        }
+        else {
+            resultJson.lastPage = lastPageInt + 1;
+        }
 
         let articleWrapper = {} as IArticleWrapper;
         resultJson.data = articleWrapper;
@@ -33,19 +40,17 @@ export class XMLMessageMappingHelper4Search {
             article.provider = provider;
             article.renderType = renderType;
             article.views = page.metrics["metric.views"];
-            //for (let j = 0; j < page.tags.tag.length; j++){
-                //todo: populate tags
-            //}
+            //todo: populate tags (1911+)
             article.link = page["uri.ui"];
             //To-do: fomulate right renderValue
             article.renderValue = page["uri.ui"];
-            
+
             //To-do: convert score to float
-            //To-do: calculate devotes and upvotes
+            //To-do: calculate devotes and upvotes (1911+)
 
             resultJson.data.knowledgeArticle.push(article);
         }
-//        return mockAdapterSearchResults;
-          return resultJson;
+        //        return mockAdapterSearchResults;
+        return resultJson;
     }
 }
